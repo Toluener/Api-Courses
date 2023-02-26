@@ -65,7 +65,7 @@ const index = courses.indexOf(course);
  
  res.send(course);});
 
- //VALIDATING FUNCTION
+ //VALIDATING FUNCTION using Joi
 function validateCourse(course){
 const schema = {
 name: Joi.string().min(3).required()};
