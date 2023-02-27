@@ -15,6 +15,8 @@ you want as the update as part of the request body)
 To delete an existing course enter in the url http://localhost:env.port/api/courses/id (The id should match the id of any one of the existing courses for
 it to be deleted)
 
+When running the program use npm start.
+
 You can find the dependencies and their exact versions used in my package-lock.json file
 
 Thank you for checking out my API enjoy!
